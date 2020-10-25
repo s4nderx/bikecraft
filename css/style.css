@@ -170,7 +170,7 @@ img {
     width: 60px;
     height: 3px;
     background: #fff;
-    margin: 6px auto 10px auto;
+    margin: -3px auto 10px auto;
 }
 
 .subtitulo-interno {
@@ -398,4 +398,8 @@ img {
     width: 100%;
     background: #fec63e;
     padding: 20px 0;
+}
+
+.contato_mapa {
+    margin-bottom: 60px;
 }
