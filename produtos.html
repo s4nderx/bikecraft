@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
     <header class="header">
@@ -29,28 +30,28 @@
     </header>
     <section class="introducao-interna interna_produtos">
         <div class="container">
-            <h1>
+            <h1 data-anime="400" class="fadeInDown">
                 Produtos
             </h1>
-            <p>conheça todos os nossos produtos</p>
+            <p data-anime="800">conheça todos os nossos produtos</p>
         </div>
     </section>
 
     <section class="container produto_item">
-        <div class="grid-11">
+        <div class="grid-11 fadeInDown" data-anime="1200">
             <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
             <h2>Passeio</h2>
         </div>
 
-        <div class="grid-5 produto_icone">
+        <div class="grid-5 produto_icone fadeInRight" data-anime="1500">
             <img src="img/produtos/passeio.svg" alt="">
         </div>
 
-        <div class="grid-8">
+        <div class="grid-8 fadeInLeft" data-anime="2100">
             <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio 2">
         </div>
 
-        <div class="grid-8 produto_info">
+        <div class="grid-8 produto_info fadeInUp" data-anime="1800">
             <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
             <ul>
                 <li>Conforto</li>
@@ -184,5 +185,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
