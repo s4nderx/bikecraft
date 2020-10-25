@@ -54,6 +54,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 /* Header */
 
@@ -301,7 +302,6 @@ img {
 .qualidade_lista li {
     text-align: center;
     padding: 0 40px;
-
 }
 
 .qualidade_lista li h3 {
